@@ -31,6 +31,20 @@ function GetStartedPage() {
 
           <section className="">
             <div className="row cards__container">
+              {/* Card for overview/intro */}
+              <Card
+                to="/getstarted/overview"
+                header={{
+                  label: "Overview",
+                  translateId: "getstarted-overview",
+                }}
+                body={{
+                  label:
+                    "Learn about the Solana blockchain and the Solana program lifecycle.",
+                  translateId: "getstarted-overview-body",
+                }}
+              />
+              
               <Card
                 to="/getstarted/hello-world"
                 header={{
