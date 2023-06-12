@@ -114,14 +114,14 @@ module.exports = {
         },
         {
           type: "doc",
+          id: "getstarted/token",
+          label: "Create a token",
+        },
+        {
+          type: "doc",
           id: "getstarted/rust",
           label: "Create and deploy a Rust program",
         },
-        // {
-        //   type: "doc",
-        //   id: "getstarted/token",
-        //   label: "Create a token",
-        // },
         // {
         //   type: "doc",
         //   id: "getstarted/nft",
